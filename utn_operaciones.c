@@ -81,4 +81,24 @@ float utn_factorizar2Numeros(float numberOne,float numberTwo,float* presultFactA
 	*presultFactB=resultB;
 	return 0;
 }
+int ordenarArray(int* pArray,int limite)
+{
+int flagEstaDesordenado=0;
+int i;
+int aux;
 
+do
+{
+	flagEstaDesordenado=1;
+	for(i=0;i<len-1;i++)
+	{
+		if(pArray[i]>pArray[i+1])
+		{
+			aux=pArray[i];
+			pArray[i]=pArray[i+1];
+			pArray[i+1]=aux;
+			flagEstaDesordenado=0;
+		}
+	}
+}while(flagEstaDesordenado==0);
+}
