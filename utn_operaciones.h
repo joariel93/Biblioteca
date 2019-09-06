@@ -14,6 +14,7 @@ float utn_restar(float numberOne,float numberTwo,float *resultSub);//Recibo 2 va
 float utn_multiplicar(float numberOne,float numberTwo,float *resultMult);//Recibo 2 valores de variables y el puntero del resultado de la multiplicacion
 float utn_dividir(float numberOne,float numberTwo,float *resultDiv);//Recibo 2 valores de variables y el puntero del resultado de la división
 float utn_factorizar2Numeros(float numberOne,float numberTwo,float *resultFactA,float *resultFactB);//Recibo 2 valores de variables y 2 punteros de los resultados de las factorizaciones
+int ordenarArray(int* pArray,int limite);
 
 #endif /* UTN_H_ */
 
